@@ -1,3 +1,14 @@
+v2.2.7
+------
+
+* @gsreynolds
+  - Add explicit service provider attributes for Debian, including Debian 8.
+
+* @hrak
+  - Use package portmap instead of rpcbind on Ubuntu <=13.04
+  - Correct service name for Ubuntu <=13.04 = 'portmap', >=13.10 = 'rpcbind'
+        
+
 v2.2.6
 ------
 
